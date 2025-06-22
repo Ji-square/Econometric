@@ -1,10 +1,4 @@
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-import seaborn as sns
-import statsmodels.formula.api as smf
-import wooldridge as wool
-from scipy import stats
+
 def plot_regression(x, y, data, results, title, add_ci=True):
     """Create an enhanced regression plot with confidence intervals and annotations.
 
