@@ -5,7 +5,6 @@ import seaborn as sns
 import statsmodels.formula.api as smf
 import wooldridge as wool
 from scipy import stats
-!wget https://raw.githubusercontent.com/Ji-square/Econometric/main/simp_reg_viz.py
 from simp_reg_viz import plot_regression
 def plot_regression(x, y, data, results, title, add_ci=True):
     """Create an enhanced regression plot with confidence intervals and annotations.
